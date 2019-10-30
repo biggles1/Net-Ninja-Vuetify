@@ -96,12 +96,12 @@ export default {
           // if(this.$refs.form.validate()){
             // error checking ok so run update
             console.log("SUBMIT has run", this.popTitle, this.popContent, this.popPerson, this.popStatus, this.popDue, "dialog is", this.dialog),
-            // call method myClearing to clear popup screen fields
+            // call method myClearing to clear popup screen fields3t35tb
             this.myClearing()
         // }
         },
         myClearing() {
-         // initialise popup screen fields to blank
+         // initialise popup screen fields to blanketrbe5y5
          console.log("SUBMIT/CANCEL:values before clearing", this.popTitle, this.popContent, this.popPerson, this.popStatus, this.popDue, "dialog is", this.dialog),
             this.popTitle= '',
             this.popContent= '',
